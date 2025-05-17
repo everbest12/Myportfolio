@@ -51,10 +51,10 @@
     <section id="home" class="py-20 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900">
         <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 mb-10 md:mb-0 animate-fade-in">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">Hi, I'm <span class="text-blue-600 dark:text-blue-400">[Your Name]</span></h1>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4">Hi, I'm <span class="text-blue-600 dark:text-blue-400">EMMANUEL ANIEFIOK</span></h1>
                 <h2 class="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6">A <span class="text-blue-600 dark:text-blue-400 font-medium" id="typing-text"></span></h2>
                 <p class="text-gray-600 dark:text-gray-300 mb-8 max-w-lg">
-                    I create beautiful, functional websites and applications. Passionate about solving problems through clean code and intuitive design.
+                    I create intelligent, data-driven solutions using AI, machine learning, and automation. Passionate about turning complex problems into scalable, real-world applications.
                 </p>
                 <div class="flex space-x-4">
                     <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg">
@@ -76,115 +76,16 @@
     </section>
 
     <!-- About Section -->
-    <div id="about-section"></div>
+    <div data-include="about.html"></div>
 
     <!-- Skills Section -->
-    <div id="skills-section"></div>
+    <div data-include="skills.html"></div>
 
     <!-- Projects Section -->
-    <div id="projects-section"></div>
+    <div data-include="projects.html"></div>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-900">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-4">Get In <span class="text-blue-600 dark:text-blue-400">Touch</span></h2>
-            <p class="text-center text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-16">
-                Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
-            </p>
-            
-            <div class="flex flex-col md:flex-row gap-12">
-                <div class="md:w-1/2">
-                    <form class="space-y-6">
-                        <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name</label>
-                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white transition duration-300" placeholder="Your Name">
-                        </div>
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
-                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white transition duration-300" placeholder="your.email@example.com">
-                        </div>
-                        <div>
-                            <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject</label>
-                            <input type="text" id="subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white transition duration-300" placeholder="Subject">
-                        </div>
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
-                            <textarea id="message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:text-white transition duration-300" placeholder="Your message here..."></textarea>
-                        </div>
-                        <button type="submit" class="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg">
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-                
-                <div class="md:w-1/2">
-                    <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg h-full">
-                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-6">Contact Information</h3>
-                        
-                        <div class="space-y-6">
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0 bg-blue-100 dark:bg-blue-900 p-3 rounded-lg">
-                                    <i class="fas fa-map-marker-alt text-blue-600 dark:text-blue-400 text-xl"></i>
-                                </div>
-                                <div class="ml-4">
-                                    <h4 class="text-lg font-medium text-gray-800 dark:text-white">Location</h4>
-                                    <p class="text-gray-600 dark:text-gray-300">New York, NY, USA</p>
-                                </div>
-                            </div>
-                            
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0 bg-blue-100 dark:bg-blue-900 p-3 rounded-lg">
-                                    <i class="fas fa-envelope text-blue-600 dark:text-blue-400 text-xl"></i>
-                                </div>
-                                <div class="ml-4">
-                                    <h4 class="text-lg font-medium text-gray-800 dark:text-white">Email</h4>
-                                    <p class="text-gray-600 dark:text-gray-300">contact@example.com</p>
-                                </div>
-                            </div>
-                            
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0 bg-blue-100 dark:bg-blue-900 p-3 rounded-lg">
-                                    <i class="fas fa-phone-alt text-blue-600 dark:text-blue-400 text-xl"></i>
-                                </div>
-                                <div class="ml-4">
-                                    <h4 class="text-lg font-medium text-gray-800 dark:text-white">Phone</h4>
-                                    <p class="text-gray-600 dark:text-gray-300">+1 (123) 456-7890</p>
-                                </div>
-                            </div>
-                            
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0 bg-blue-100 dark:bg-blue-900 p-3 rounded-lg">
-                                    <i class="fas fa-clock text-blue-600 dark:text-blue-400 text-xl"></i>
-                                </div>
-                                <div class="ml-4">
-                                    <h4 class="text-lg font-medium text-gray-800 dark:text-white">Availability</h4>
-                                    <p class="text-gray-600 dark:text-gray-300">Monday - Friday: 9am - 5pm EST</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="mt-8">
-                            <h4 class="text-lg font-medium text-gray-800 dark:text-white mb-4">Follow Me</h4>
-                            <div class="flex space-x-4">
-                                <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900 transition duration-300">
-                                    <i class="fab fa-github text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900 transition duration-300">
-                                    <i class="fab fa-linkedin-in text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900 transition duration-300">
-                                    <i class="fab fa-twitter text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900 transition duration-300">
-                                    <i class="fab fa-instagram text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div data-include="contact.html"></div>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-12">
@@ -233,7 +134,7 @@
             
             <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-400 mb-4 md:mb-0">
-                    &copy; 2024 [Your Name]. All rights reserved.
+                    &copy; 2025 Emmanuel Aniefiok. All rights reserved.
                 </p>
                 <div class="flex space-x-6">
                     <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">Privacy Policy</a>
@@ -248,20 +149,21 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <script src="js/main.js"></script>
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      function loadSection(id, file) {
+    // HTML include loader
+    function loadHTMLIncludes() {
+      const includeElements = document.querySelectorAll('[data-include]');
+      includeElements.forEach(el => {
+        const file = el.getAttribute('data-include');
         fetch(file)
           .then(response => response.text())
-          .then(html => {
-            document.getElementById(id).innerHTML = html;
+          .then(data => {
+            el.innerHTML = data;
           });
-      }
-      loadSection('about-section', 'about.html');
-      loadSection('skills-section', 'skills.html');
-      loadSection('projects-section', 'projects.html');
-    });
+      });
+    }
+    loadHTMLIncludes();
     </script>
-    <script src="js/main.js"></script>
 </body>
 </html> 
